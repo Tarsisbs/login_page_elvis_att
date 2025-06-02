@@ -9,15 +9,16 @@ const styles = StyleSheet.create({
   },
 
   backgroundImage: {
-    width: '460px',
-    height: '1400px',
-    marginTop: '-50px',
-    zIndex: '-5'
+    
+    maxWidth: '100vw',
+    maxHeight: '100vh',
+    position: 'absolute',
+    zIndex: '-2'
   },
 
   form: {
-    marginTop: '-1100px',
-    marginLeft: '-20px'
+    marginLeft: '-60px',
+    marginTop: '-170px'
   },
 
   inputGeral: {
@@ -26,9 +27,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     fontSize: 20,
     fontWeight: '500',
-    color: '#222',
+    color: 'black',
     borderBottomWidth: 1,
-    borderColor: '#1D1C1C',
+    borderColor: 'black',
     borderStyle: 'solid'
   },
 
@@ -40,7 +41,14 @@ const styles = StyleSheet.create({
   },
 
   icone: {
-    marginLeft: '-30px'
+    marginLeft: '-30px',
+    color: 'black'
+  },
+
+  asterisco: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginLeft: '-78px'
   },
 
   inputLabel: {
@@ -48,6 +56,21 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#222',
     marginBottom: 8,
+  },
+
+  btn_login: {
+    backgroundColor: '#af69cd',
+    padding: '20px',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: '10px'
+  },
+
+  text_btn: {
+    color: '#fff',
+    fontSize: 15
   }
 });
 

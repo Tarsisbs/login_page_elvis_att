@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
-import { View, TextInput, Image } from 'react-native';
+import { View, TextInput, Image, TouchableOpacity, Text } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import styles from './styles/style';
 
 export default function App() {
@@ -43,6 +45,17 @@ export default function App() {
                 placeholderTextColor="#6b7280"
                 style={styles.inputGeral}
               />
+              <View style={styles.asterisco}>
+                <MaterialCommunityIcons name="asterisk" size={24} color="black" />
+                <MaterialCommunityIcons name="asterisk" size={24} color="black" />
+                <MaterialCommunityIcons name="asterisk" size={24} color="black" />
+              </View>
+            </View>
+
+            <View style={styles.btn}>
+              <TouchableOpacity style={styles.btn_login}>
+                <Text style={styles.text_btn}>Login</Text>
+              </TouchableOpacity>
             </View>
         </View>
       </View>
