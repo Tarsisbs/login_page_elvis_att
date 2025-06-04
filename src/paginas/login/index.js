@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { View, TextInput, Image, TouchableOpacity, Text } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
-import FontAwesome from '@expo/vector-icons/FontAwesome';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import styles from './style';
 import { useNavigation } from '@react-navigation/native';
